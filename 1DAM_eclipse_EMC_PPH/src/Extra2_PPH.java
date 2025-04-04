@@ -5,7 +5,8 @@ public class Extra2_PPH {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		DecimalFormat formato = new DecimalFormat("#0.00€"); // he añadido esto para simplemente estetica en la terminal
+		DecimalFormat formato = new DecimalFormat("#0.00€"); // he añadido esto para simplemente para la estetica en la
+																// terminal
 
 		System.out.println("Introduzca sus horas trabajadas a lo largo de la semana:");
 		int horas = sc.nextInt();
